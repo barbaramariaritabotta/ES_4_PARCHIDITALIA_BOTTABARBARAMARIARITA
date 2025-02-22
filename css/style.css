@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   
+}
+
+header {
+    background-color: #5069AA;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+    padding-top: 0%;
+    margin:auto
+    font-size: 20px;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    top: 0;
+            left: 0;
+            z-index: 1000;
+
+}
+
+header h1{
+font-size: 30px;
+}
+
+
+nav ul{
+    display: flex;
+    gap:16px;
+    background-color: #5069AA;
+    padding: 1px;
+    list-style:none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    position: relative;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    position: relative;
+ 
+}
+
+.hero h1 {
+
+    font-size: 60px;
+    color: #5069AA;
+    
+}
+
+.hero p {
+   
+    font-size: 32px;
+    color: #5069AA;
+    font-weight: bold;
+     }
+
+
+.intro{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.intro1 {
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.intro2{
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    font-size: 30px; 
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+
+
+.parchi {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 30px 20px;
+    background-color: #A5B4C3;
+    
+}
+
+.parco {
+    border: 1px solid #A5B4C3;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.parchi img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.parchi h3 {
+    margin: 10px;
+    padding: 10px;
+    background-color:#A5B4C3;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.section .introparchi{
+  align-items: right;
+}
+
+.iparchi h1{
+    color: black;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.iparchi p {
+    font-size: 30px;
+    line-height: 1.6;
+    padding-left: 10px;
+    padding-bottom: 100px;
+
+}
+
+.introparchi h1{
+    padding: 30px 10px;
+    padding-top: 200px;
+    font-size: 50px;
+}
+
+.introparchi p {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 30px;
+    line-height: 1.6;
+
+}
+
+.divider {
+ width: 1000px;
+ height: 10px;
+ background: #A5B4C3;
+ margin: 30px 0;
+ 
+}
+
+.divider2 {
+    width: 1000px;
+    height: 10px;
+    background: #C3C378;
+    margin: 30px 0;
+    
+   }
+
+   .divider3 {
+    width: 1000px;
+    height: 10px;
+    background: #234678;
+    margin: 30px 0;
+    
+   }
+
+
+
+
+.introparchi.img {
+    width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 8px;
+    
+}
+
+.parchigeneral p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.spiegazioni h2 {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 30px;
+    color: black;
+}
+.spiegazioni p {
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 1.6;
+}
+
+.spiegazioni img {
+    padding-left: 10px;
+}
+
+.spiegazioni2 img{
+    padding-left: 10px;
+    padding-top: 100px;
+}
+.spiegazioni2 h2 {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: black;
+}
+.spiegazioni2 p {
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 1.6;
+}
+
+
+
+footer {
+    background-color: #5069AA;
+    color:#5069AA;
+    text-align: right;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .hero h1{
+        font-size: 24px;
+        text-align: center;
+        padding-top: 80px;
+       
+    }
+    .hero p{
+        font-size: 12px;
+        text-align: center;
+        
+    }
+
+    header {
+        flex-direction: column;
+       
+    }
+
+    header h1{
+        font-size: 10px;
+        padding: 1px;
+    }
+    header nav ul {
+        font-size: 10px;
+        padding-top: 0px;
+    }
+  
+    
+    section.intro1{
+        font-size: 20px;
+    }
+    section.intro2{
+        font-size: 20px;
+    }
+    section.parchi div.parco{
+        width: 100%;
+    }
+
+    .parchigeneral img{
+     width: 100%;
+    }
+
+    .parchigeneral p {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    .spiegazioni img{
+     width: 100%;
+    }
+    .spiegazioni h2{
+        font-size: 30px;
+        line-height: 1.6;
+    }
+    .spiegazioni p {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    .spiegazioni2 img{
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 100px;
+    }
+    .spiegazioni2 h2 {
+        font-size: 30px;
+        padding-left: 10px;
+        padding-top: 10px;
+        color: black;
+    }
+    .spiegazioni2 p {
+        font-size: 20px;
+        padding-left: 10px;
+        line-height: 1.6;
+    }
+
+    .divider {
+        width: 400px;
+        height: 10px;
+        background: #A5B4C3;
+        margin: 30px 0;
+        
+       }
+       
+       .divider2 {
+           width: 400px;
+           height: 10px;
+           background: #C3C378;
+           margin: 30px 0;
+           
+          }
+       
+          .divider3 {
+           width: 400px;
+           height: 10px;
+           background: #234678;
+           margin: 30px 0;
+           
+          }
+
+    footer{
+        position: relative;
+        font-size: 12px;
+        }
+}
