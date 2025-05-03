@@ -47,6 +47,13 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.container {
+    max-width: 1000px;       /* larghezza massima del contenuto */
+    margin: 0 auto;          /* centra orizzontalmente */
+    padding: 20px;  
+    text-align: left         /* spazio interno, opzionale */
+  }
+
 .hero {
     position: relative;
     text-align: center;
@@ -81,23 +88,27 @@ nav a:hover {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    text-align: center;
+    max-width: 1000px;
 }
 .intro1 {
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1.6;
+    text-align: center
+    
 }
 
 .intro2{
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
     text-align: center;
     font-size: 30px; 
     font-weight: bold;
     line-height: 1.6;
+    text-align: center
 }
 
 
